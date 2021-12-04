@@ -1,0 +1,12 @@
+.game-wrapper {
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.main.dark {
+  background: #353535;
+}

@@ -1,0 +1,109 @@
+.game {
+  padding: 20px;
+}
+
+.mode-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mode-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #3c6e71;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.mode-button:disabled {
+  background: #d9d9d9;
+  color: white;
+}
+
+.mode-button .button-icon {
+  margin-left: 10px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.top-section p {
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.paragraph span {
+  box-sizing: border-box;
+}
+
+.currentLetter {
+  box-shadow: -1px 0px 0px 0px black;
+}
+
+.error {
+  background: #ff9a9a;
+}
+
+.incomplete {
+  color: grey;
+}
+
+.text-input {
+  width: 100%;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.text-input:focus {
+  outline: none;
+}
+
+.game-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.game-buttons button {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #284b63;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.game.dark {
+  color: white;
+  background: #353535;
+}
+
+.dark .currentLetter {
+  box-shadow: -1px 0px 0px 0px white;
+}
+
+@media (max-width: 412px) {
+  .mode-buttons {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "M PLUS 1 Code", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
